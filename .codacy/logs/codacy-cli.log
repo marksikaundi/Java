@@ -1,2 +1,118 @@
 2025-10-14T17:18:36+02:00 [INFO] (codacy-cli-v2/cli-v2.go:27) Starting Codacy CLI version=1.0.0-main.358.sha.7cb05d0 (7cb05d0) built at 2025-09-19T09:27:42Z
 2025-10-14T17:18:36+02:00 [INFO] (codacy-cli-v2/cmd/root.go:34) Executing CLI command command=init full_command=[/Users/marksikaundi/Library/Caches/Codacy/codacy-cli-v2/1.0.0-main.358.sha.7cb05d0/codacy-cli-v2 init --provider gh --organization marksikaundi --repository Java --api-token ***] args=[]
+2025-10-17T01:10:37+02:00 [INFO] (codacy-cli-v2/cli-v2.go:27) Starting Codacy CLI version=1.0.0-main.358.sha.7cb05d0 (7cb05d0) built at 2025-09-19T09:27:42Z
+2025-10-17T01:10:37+02:00 [INFO] (codacy-cli-v2/cmd/root.go:34) Executing CLI command command=update full_command=[/Users/marksikaundi/Library/Caches/Codacy/codacy-cli-v2/1.0.0-main.358.sha.7cb05d0/codacy-cli-v2 update] args=[]
+2025-10-17T01:10:38+02:00 [INFO] (codacy-cli-v2/cli-v2.go:27) Starting Codacy CLI version=1.0.0-main.358.sha.7cb05d0 (7cb05d0) built at 2025-09-19T09:27:42Z
+2025-10-17T01:10:38+02:00 [INFO] (codacy-cli-v2/cli-v2.go:55) No configuration file was found, execute init command first.
+2025-10-17T01:10:38+02:00 [INFO] (codacy-cli-v2/cli-v2.go:27) Starting Codacy CLI version=1.0.0-main.358.sha.7cb05d0 (7cb05d0) built at 2025-09-19T09:27:42Z
+2025-10-17T01:10:38+02:00 [INFO] (codacy-cli-v2/cmd/root.go:34) Executing CLI command command=init full_command=[/Users/marksikaundi/Library/Caches/Codacy/codacy-cli-v2/1.0.0-main.358.sha.7cb05d0/codacy-cli-v2 init] args=[]
+2025-10-17T01:11:28+02:00 [INFO] (codacy-cli-v2/cli-v2.go:27) Starting Codacy CLI version=1.0.0-main.358.sha.7cb05d0 (7cb05d0) built at 2025-09-19T09:27:42Z
+2025-10-17T01:11:28+02:00 [INFO] (codacy-cli-v2/cmd/root.go:34) Executing CLI command command=install full_command=[/Users/marksikaundi/Library/Caches/Codacy/codacy-cli-v2/1.0.0-main.358.sha.7cb05d0/codacy-cli-v2 install] args=[]
+2025-10-17T01:11:28+02:00 [INFO] (codacy-cli-v2/cmd/install.go:78) Starting installation process
+2025-10-17T01:11:28+02:00 [INFO] (codacy-cli-v2/cmd/install.go:107) Runtime scheduled for installation runtime=dart version=3.7.2
+2025-10-17T01:11:28+02:00 [INFO] (codacy-cli-v2/cmd/install.go:116) Tool scheduled for installation version=7.11.0 tool=pmd
+2025-10-17T01:11:28+02:00 [INFO] (codacy-cli-v2/cmd/install.go:116) Tool scheduled for installation tool=revive version=1.7.0
+2025-10-17T01:11:28+02:00 [INFO] (codacy-cli-v2/cmd/install.go:116) Tool scheduled for installation tool=semgrep version=1.78.0
+2025-10-17T01:11:28+02:00 [INFO] (codacy-cli-v2/cmd/install.go:116) Tool scheduled for installation tool=eslint version=8.57.0
+2025-10-17T01:11:28+02:00 [INFO] (codacy-cli-v2/cmd/install.go:116) Tool scheduled for installation tool=lizard version=1.17.31
+2025-10-17T01:11:28+02:00 [INFO] (codacy-cli-v2/cmd/install.go:116) Tool scheduled for installation tool=pylint version=3.3.6
+2025-10-17T01:11:28+02:00 [INFO] (codacy-cli-v2/cmd/install.go:116) Tool scheduled for installation tool=trivy version=0.66.0
+2025-10-17T01:11:28+02:00 [INFO] (codacy-cli-v2/cmd/install.go:157) Installing runtime version=3.7.2 runtime=dart
+2025-10-17T01:11:28+02:00 [DEBUG] (codacy-cli-v2/config/runtimes-installer.go:107) Using existing runtime download runtime=dart version=3.7.2 downloadPath=/Users/marksikaundi/.cache/codacy/runtimes/dartsdk-macos-x64-release.zip
+2025-10-17T01:11:28+02:00 [DEBUG] (codacy-cli-v2/config/runtimes-installer.go:122) Extracting runtime version=3.7.2 fileName=dartsdk-macos-x64-release.zip extractDirectory=/Users/marksikaundi/.cache/codacy/runtimes runtime=dart
+2025-10-17T01:11:28+02:00 [ERROR] (codacy-cli-v2/utils/extract.go:215) Failed to extract zip archive file=/Users/marksikaundi/.cache/codacy/runtimes/dartsdk-macos-x64-release.zip error=zip: not a valid zip file
+2025-10-17T01:11:28+02:00 [ERROR] (codacy-cli-v2/cmd/install.go:163) Failed to install runtime version=3.7.2 error=failed to download and extract runtime dart: failed to extract runtime: failed to extract zip archive /Users/marksikaundi/.cache/codacy/runtimes/dartsdk-macos-x64-release.zip: zip: not a valid zip file runtime=dart
+2025-10-17T01:11:28+02:00 [INFO] (codacy-cli-v2/cmd/install.go:185) Installing tool version=1.78.0 tool=semgrep
+2025-10-17T01:11:28+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:125) Installing Python tool tool=semgrep version=1.78.0
+2025-10-17T01:11:28+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:334) Starting Python tool installation tool=semgrep version=1.78.0
+2025-10-17T01:11:28+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:361) Creating Python virtual environment tool=semgrep version=1.78.0 venvDir=/Users/marksikaundi/.cache/codacy/tools/semgrep@1.78.0/venv
+2025-10-17T01:11:28+02:00 [ERROR] (codacy-cli-v2/cmd/install.go:191) Failed to install tool tool=semgrep version=1.78.0 error=failed to create venv: 
+Error: fork/exec /Users/marksikaundi/.cache/codacy/runtimes/python/bin/python3: no such file or directory
+2025-10-17T01:11:28+02:00 [INFO] (codacy-cli-v2/cmd/install.go:185) Installing tool tool=eslint version=8.57.0
+2025-10-17T01:11:28+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:134) Installing runtime-based tool version=8.57.0 runtime=node tool=eslint
+2025-10-17T01:11:28+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:203) Installing tool tool=eslint version=8.57.0 packageManager=npm packageManagerBin=/Users/marksikaundi/.cache/codacy/runtimes/node-v22.2.0-darwin-x64/bin/npm command=install --prefix /Users/marksikaundi/.cache/codacy/tools/eslint@8.57.0 eslint@8.57.0 @microsoft/eslint-formatter-sarif
+2025-10-17T01:11:28+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:242) Running command command=/Users/marksikaundi/.cache/codacy/runtimes/node-v22.2.0-darwin-x64/bin/npm install --prefix /Users/marksikaundi/.cache/codacy/tools/eslint@8.57.0 eslint@8.57.0 @microsoft/eslint-formatter-sarif
+2025-10-17T01:11:28+02:00 [ERROR] (codacy-cli-v2/cmd/install.go:191) Failed to install tool tool=eslint version=8.57.0 error=failed to install tool: : fork/exec /Users/marksikaundi/.cache/codacy/runtimes/node-v22.2.0-darwin-x64/bin/npm: no such file or directory
+2025-10-17T01:11:28+02:00 [INFO] (codacy-cli-v2/cmd/install.go:185) Installing tool version=1.17.31 tool=lizard
+2025-10-17T01:11:28+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:125) Installing Python tool tool=lizard version=1.17.31
+2025-10-17T01:11:28+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:334) Starting Python tool installation tool=lizard version=1.17.31
+2025-10-17T01:11:28+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:361) Creating Python virtual environment venvDir=/Users/marksikaundi/.cache/codacy/tools/lizard@1.17.31/venv tool=lizard version=1.17.31
+2025-10-17T01:11:28+02:00 [ERROR] (codacy-cli-v2/cmd/install.go:191) Failed to install tool error=failed to create venv: 
+Error: fork/exec /Users/marksikaundi/.cache/codacy/runtimes/python/bin/python3: no such file or directory tool=lizard version=1.17.31
+2025-10-17T01:11:28+02:00 [INFO] (codacy-cli-v2/cmd/install.go:185) Installing tool tool=pylint version=3.3.6
+2025-10-17T01:11:28+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:125) Installing Python tool tool=pylint version=3.3.6
+2025-10-17T01:11:28+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:334) Starting Python tool installation tool=pylint version=3.3.6
+2025-10-17T01:11:28+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:361) Creating Python virtual environment version=3.3.6 venvDir=/Users/marksikaundi/.cache/codacy/tools/pylint@3.3.6/venv tool=pylint
+2025-10-17T01:11:28+02:00 [ERROR] (codacy-cli-v2/cmd/install.go:191) Failed to install tool tool=pylint version=3.3.6 error=failed to create venv: 
+Error: fork/exec /Users/marksikaundi/.cache/codacy/runtimes/python/bin/python3: no such file or directory
+2025-10-17T01:11:28+02:00 [INFO] (codacy-cli-v2/cmd/install.go:185) Installing tool tool=trivy version=0.66.0
+2025-10-17T01:11:28+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:114) Installing download-based tool tool=trivy version=0.66.0 downloadURL=https://github.com/aquasecurity/trivy/releases/download/v0.66.0/trivy_0.66.0_macOS-64bit.tar.gz
+2025-10-17T01:11:28+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:280) Using existing tool download version=0.66.0 downloadPath=/Users/marksikaundi/.cache/codacy/tools/trivy_0.66.0_macOS-64bit.tar.gz tool=trivy
+2025-10-17T01:11:28+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:301) Extracting tool version=0.66.0 fileName=trivy_0.66.0_macOS-64bit.tar.gz extractDirectory=/Users/marksikaundi/.cache/codacy/tools/trivy@0.66.0 tool=trivy
+2025-10-17T01:11:28+02:00 [ERROR] (codacy-cli-v2/utils/extract.go:100) Failed to extract archive error=EOF
+2025-10-17T01:11:28+02:00 [ERROR] (codacy-cli-v2/cmd/install.go:191) Failed to install tool version=0.66.0 error=failed to extract tool: failed to extract archive: EOF tool=trivy
+2025-10-17T01:11:28+02:00 [INFO] (codacy-cli-v2/cmd/install.go:185) Installing tool tool=pmd version=7.11.0
+2025-10-17T01:11:28+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:114) Installing download-based tool tool=pmd version=7.11.0 downloadURL=https://github.com/pmd/pmd/releases/download/pmd_releases%2F7.11.0/pmd-dist-7.11.0-bin.zip
+2025-10-17T01:11:28+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:280) Using existing tool download tool=pmd version=7.11.0 downloadPath=/Users/marksikaundi/.cache/codacy/tools/pmd-dist-7.11.0-bin.zip
+2025-10-17T01:11:28+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:301) Extracting tool version=7.11.0 fileName=pmd-dist-7.11.0-bin.zip extractDirectory=/Users/marksikaundi/.cache/codacy/tools/pmd@7.11.0 tool=pmd
+2025-10-17T01:11:28+02:00 [ERROR] (codacy-cli-v2/utils/extract.go:215) Failed to extract zip archive file=/Users/marksikaundi/.cache/codacy/tools/pmd-dist-7.11.0-bin.zip error=zip: not a valid zip file
+2025-10-17T01:11:28+02:00 [ERROR] (codacy-cli-v2/cmd/install.go:191) Failed to install tool version=7.11.0 error=failed to extract tool: failed to extract zip archive /Users/marksikaundi/.cache/codacy/tools/pmd-dist-7.11.0-bin.zip: zip: not a valid zip file tool=pmd
+2025-10-17T01:11:28+02:00 [INFO] (codacy-cli-v2/cmd/install.go:185) Installing tool tool=revive version=1.7.0
+2025-10-17T01:11:28+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:134) Installing runtime-based tool tool=revive version=1.7.0 runtime=go
+2025-10-17T01:11:28+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:203) Installing tool tool=revive version=1.7.0 packageManager=go packageManagerBin=/Users/marksikaundi/.cache/codacy/runtimes/go/bin/go command=install github.com/mgechev/revive@v1.7.0
+2025-10-17T01:11:28+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:242) Running command command=/Users/marksikaundi/.cache/codacy/runtimes/go/bin/go install github.com/mgechev/revive@v1.7.0
+2025-10-17T01:11:32+02:00 [ERROR] (codacy-cli-v2/cmd/install.go:191) Failed to install tool tool=revive version=1.7.0 error=failed to install tool: ../../../../go/pkg/mod/github.com/mgechev/revive@v1.7.0/cli/main.go:5:2: package flag is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/flag)
+../../../../go/pkg/mod/github.com/mgechev/revive@v1.7.0/cli/main.go:6:2: package fmt is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/fmt)
+../../../../go/pkg/mod/github.com/mattn/go-colorable@v0.1.14/noncolorable.go:4:2: package bytes is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/bytes)
+../../../../go/pkg/mod/golang.org/x/sys@v0.30.0/unix/sockcmsg_unix_other.go:10:2: package runtime is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/runtime)
+../../../../go/pkg/mod/golang.org/x/sys@v0.30.0/unix/syscall_unix.go:11:2: package sort is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/sort)
+../../../../go/pkg/mod/golang.org/x/sys@v0.30.0/unix/syscall.go:29:2: package strings is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/strings)
+../../../../go/pkg/mod/golang.org/x/sys@v0.30.0/unix/syscall_unix.go:12:2: package sync is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/sync)
+../../../../go/pkg/mod/golang.org/x/sys@v0.30.0/unix/aliases.go:9:8: package syscall is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/syscall)
+../../../../go/pkg/mod/golang.org/x/sys@v0.30.0/unix/timestruct.go:9:8: package time is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/time)
+../../../../go/pkg/mod/golang.org/x/sys@v0.30.0/unix/auxv.go:11:2: package unsafe is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/unsafe)
+../../../../go/pkg/mod/github.com/mattn/go-colorable@v0.1.14/colorable_others.go:7:2: package io is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/io)
+../../../../go/pkg/mod/github.com/mattn/go-colorable@v0.1.14/colorable_others.go:8:2: package os is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/os)
+../../../../go/pkg/mod/github.com/fatih/color@v1.18.0/color.go:7:2: package strconv is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/strconv)
+../../../../go/pkg/mod/github.com/mgechev/revive@v1.7.0/config/config.go:5:2: package errors is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/errors)
+../../../../go/pkg/mod/github.com/!burnt!sushi/toml@v1.4.0/encode.go:4:2: package bufio is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/bufio)
+../../../../go/pkg/mod/github.com/!burnt!sushi/toml@v1.4.0/decode.go:5:2: package encoding is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/encoding)
+../../../../go/pkg/mod/github.com/!burnt!sushi/toml@v1.4.0/decode.go:6:2: package encoding/json is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/encoding/json)
+../../../../go/pkg/mod/github.com/!burnt!sushi/toml@v1.4.0/decode.go:9:2: package io/fs is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/io/fs)
+../../../../go/pkg/mod/github.com/!burnt!sushi/toml@v1.4.0/decode.go:10:2: package math is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/math)
+../../../../go/pkg/mod/github.com/!burnt!sushi/toml@v1.4.0/decode.go:12:2: package reflect is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/reflect)
+../../../../go/pkg/mod/github.com/!burnt!sushi/toml@v1.4.0/lex.go:8:2: package unicode is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/unicode)
+../../../../go/pkg/mod/github.com/!burnt!sushi/toml@v1.4.0/lex.go:9:2: package unicode/utf8 is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/unicode/utf8)
+../../../../go/pkg/mod/github.com/mgechev/revive@v1.7.0/formatter/friendly.go:5:2: package cmp is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/cmp)
+../../../../go/pkg/mod/github.com/mgechev/revive@v1.7.0/formatter/checkstyle.go:5:2: package encoding/xml is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/encoding/xml)
+../../../../go/pkg/mod/github.com/hashicorp/go-version@v1.7.0/version.go:8:2: package database/sql/driver is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/database/sql/driver)
+../../../../go/pkg/mod/github.com/hashicorp/go-version@v1.7.0/constraint.go:8:2: package regexp is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/regexp)
+../../../../go/pkg/mod/github.com/mgechev/revive@v1.7.0/internal/astutils/ast_utils.go:5:2: package go/ast is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/go/ast)
+../../../../go/pkg/mod/github.com/mgechev/revive@v1.7.0/lint/package.go:6:2: package go/importer is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/go/importer)
+../../../../go/pkg/mod/github.com/mgechev/revive@v1.7.0/lint/file.go:7:2: package go/parser is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/go/parser)
+../../../../go/pkg/mod/github.com/mgechev/revive@v1.7.0/lint/file.go:8:2: package go/printer is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/go/printer)
+../../../../go/pkg/mod/github.com/mgechev/revive@v1.7.0/lint/failure.go:5:2: package go/token is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/go/token)
+../../../../go/pkg/mod/github.com/mgechev/revive@v1.7.0/lint/file.go:10:2: package go/types is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/go/types)
+../../../../go/pkg/mod/golang.org/x/mod@v0.23.0/module/module.go:101:2: package path is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/path)
+../../../../go/pkg/mod/golang.org/x/mod@v0.23.0/modfile/rule.go:25:2: package path/filepath is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/path/filepath)
+../../../../go/pkg/mod/golang.org/x/sync@v0.11.0/errgroup/errgroup.go:13:2: package context is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/context)
+../../../../go/pkg/mod/github.com/olekukonko/tablewriter@v0.0.5/csv.go:11:2: package encoding/csv is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/encoding/csv)
+../../../../go/pkg/mod/github.com/mgechev/revive@v1.7.0/formatter/friendly.go:8:2: package slices is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/slices)
+../../../../go/pkg/mod/github.com/mgechev/revive@v1.7.0/formatter/checkstyle.go:6:2: package text/template is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/text/template)
+../../../../go/pkg/mod/github.com/mgechev/revive@v1.7.0/rule/redefines_builtin_id.go:7:2: package maps is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/maps)
+../../../../go/pkg/mod/github.com/mgechev/dots@v0.0.0-20210922191527-e955255bf517/resolve.go:4:2: package go/build is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/go/build)
+../../../../go/pkg/mod/github.com/mgechev/dots@v0.0.0-20210922191527-e955255bf517/resolve.go:5:2: package log is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/log)
+../../../../go/pkg/mod/github.com/spf13/afero@v1.12.0/mem/file.go:25:2: package sync/atomic is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/sync/atomic)
+../../../../go/pkg/mod/golang.org/x/text@v0.22.0/unicode/norm/forminfo.go:7:8: package encoding/binary is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/encoding/binary)
+../../../../go/pkg/mod/github.com/spf13/afero@v1.12.0/httpFs.go:18:2: package net/http is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/net/http)
+../../../../go/pkg/mod/github.com/mgechev/revive@v1.7.0/cli/main.go:9:2: package runtime/debug is not in std (/Users/marksikaundi/.cache/codacy/runtimes/go/src/runtime/debug)
+: exit status 1
+2025-10-17T01:11:32+02:00 [WARNING] (codacy-cli-v2/cmd/install.go:235) Installation completed with some failures
+2025-10-17T02:22:13+02:00 [INFO] (codacy-cli-v2/cli-v2.go:27) Starting Codacy CLI version=1.0.0-main.358.sha.7cb05d0 (7cb05d0) built at 2025-09-19T09:27:42Z
+2025-10-17T02:22:13+02:00 [INFO] (codacy-cli-v2/cmd/root.go:34) Executing CLI command full_command=[/Users/marksikaundi/Library/Caches/Codacy/codacy-cli-v2/1.0.0-main.358.sha.7cb05d0/codacy-cli-v2 init --provider gh --organization marksikaundi --repository Java --api-token ***] args=[] command=init
+2025-10-17T02:22:21+02:00 [INFO] (codacy-cli-v2/cli-v2.go:27) Starting Codacy CLI version=1.0.0-main.358.sha.7cb05d0 (7cb05d0) built at 2025-09-19T09:27:42Z
+2025-10-17T02:22:21+02:00 [INFO] (codacy-cli-v2/cmd/root.go:34) Executing CLI command command=init full_command=[/Users/marksikaundi/Library/Caches/Codacy/codacy-cli-v2/1.0.0-main.358.sha.7cb05d0/codacy-cli-v2 init --provider gh --organization marksikaundi --repository Java --api-token ***] args=[]
+2025-10-17T02:22:24+02:00 [INFO] (codacy-cli-v2/cli-v2.go:27) Starting Codacy CLI version=1.0.0-main.358.sha.7cb05d0 (7cb05d0) built at 2025-09-19T09:27:42Z
+2025-10-17T02:22:24+02:00 [INFO] (codacy-cli-v2/cmd/root.go:34) Executing CLI command full_command=[/Users/marksikaundi/Library/Caches/Codacy/codacy-cli-v2/1.0.0-main.358.sha.7cb05d0/codacy-cli-v2 init --provider gh --organization marksikaundi --repository Java --api-token ***] args=[] command=init
+2025-10-17T02:22:38+02:00 [INFO] (codacy-cli-v2/cli-v2.go:27) Starting Codacy CLI version=1.0.0-main.358.sha.7cb05d0 (7cb05d0) built at 2025-09-19T09:27:42Z
+2025-10-17T02:22:38+02:00 [INFO] (codacy-cli-v2/cmd/root.go:34) Executing CLI command command=init full_command=[/Users/marksikaundi/Library/Caches/Codacy/codacy-cli-v2/1.0.0-main.358.sha.7cb05d0/codacy-cli-v2 init --provider gh --organization marksikaundi --repository Java --api-token ***] args=[]
