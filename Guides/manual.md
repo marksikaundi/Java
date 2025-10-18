@@ -1,4 +1,4 @@
-Here’s a **4-month structured learning plan** to become proficient in **Java programming**, whether you're a beginner or coming from another language. Each month builds on the previous one, gradually introducing more complex concepts and practical experience.
+ **4-month structured learning plan** to become proficient in **Java programming**, whether you're a beginner or coming from another language. Each month builds on the previous one, gradually introducing more complex concepts and practical experience.
 
 ---
 
